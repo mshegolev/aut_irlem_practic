@@ -1,0 +1,24 @@
+# Starting from base image
+FROM ubuntu
+
+# Set the Github personal token [to clone the QA code]
+#todo------secret------
+ENV GH_TOKEN some_token_some_token_some_token_
+
+# Install Python & pip
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install -y python python-pip python-dev && pip install --upgrade pip
+
+# Install GIT
+RUN apt-get update -y && apt-get install git -y
+
+# [in the / folder] Create the folder and add the whole project from the repo to the container
+#RUN git clone https://$GH_TOKEN:x-oauth-basic@github.com/org/org_QA.git /org_QA_folder
+
+# Install dependencies via pip
+WORKDIR /org_QA_folder
+#RUN pip install -r dependencies.txt
+
+#
+CMD /bin/bash

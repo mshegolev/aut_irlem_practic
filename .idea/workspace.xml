@@ -25,24 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd669bde-aa7f-4b4a-9501-abfc987f2771" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/AccountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/AccountHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/HelperBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/NavigationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aut.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Belly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Belly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.cucumber.zituorden.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.cucumber.zituorden.RunCucumberTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.cucumber.zituorden.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.cucumber.zituorden.RunCucumberTest.txt" afterDir="false" />
     </list>
@@ -175,9 +164,6 @@
     </task>
     <servers />
   </component>
-  <component name="UnloadedModulesList">
-    <module name="fw" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -215,42 +201,42 @@
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
     <state x="653" y="-669" key="DetectedRootsChooserDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593291688652" />
-    <state width="853" height="452" key="GridCell.Tab.0.bottom" timestamp="1593303669157">
+    <state width="853" height="452" key="GridCell.Tab.0.bottom" timestamp="1593304979656">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="452" key="GridCell.Tab.0.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669157" />
+    <state width="853" height="452" key="GridCell.Tab.0.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979656" />
     <state width="1218" height="154" key="GridCell.Tab.0.bottom/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697574" />
-    <state width="853" height="452" key="GridCell.Tab.0.center" timestamp="1593303669156">
+    <state width="853" height="452" key="GridCell.Tab.0.center" timestamp="1593304979655">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="452" key="GridCell.Tab.0.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669156" />
+    <state width="853" height="452" key="GridCell.Tab.0.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979655" />
     <state width="1218" height="154" key="GridCell.Tab.0.center/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697573" />
-    <state width="853" height="452" key="GridCell.Tab.0.left" timestamp="1593303669156">
+    <state width="853" height="452" key="GridCell.Tab.0.left" timestamp="1593304979655">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="452" key="GridCell.Tab.0.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669156" />
+    <state width="853" height="452" key="GridCell.Tab.0.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979655" />
     <state width="1218" height="154" key="GridCell.Tab.0.left/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697572" />
-    <state width="853" height="452" key="GridCell.Tab.0.right" timestamp="1593303669157">
+    <state width="853" height="452" key="GridCell.Tab.0.right" timestamp="1593304979656">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="452" key="GridCell.Tab.0.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669157" />
+    <state width="853" height="452" key="GridCell.Tab.0.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979656" />
     <state width="1218" height="154" key="GridCell.Tab.0.right/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697573" />
-    <state width="853" height="358" key="GridCell.Tab.1.bottom" timestamp="1593303163459">
+    <state width="853" height="358" key="GridCell.Tab.1.bottom" timestamp="1593304979652">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="358" key="GridCell.Tab.1.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
-    <state width="853" height="358" key="GridCell.Tab.1.center" timestamp="1593303163459">
+    <state width="853" height="358" key="GridCell.Tab.1.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979652" />
+    <state width="853" height="358" key="GridCell.Tab.1.center" timestamp="1593304979651">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="358" key="GridCell.Tab.1.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
-    <state width="853" height="358" key="GridCell.Tab.1.left" timestamp="1593303163458">
+    <state width="853" height="358" key="GridCell.Tab.1.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979651" />
+    <state width="853" height="358" key="GridCell.Tab.1.left" timestamp="1593304979651">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="358" key="GridCell.Tab.1.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163458" />
-    <state width="853" height="358" key="GridCell.Tab.1.right" timestamp="1593303163459">
+    <state width="853" height="358" key="GridCell.Tab.1.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979651" />
+    <state width="853" height="358" key="GridCell.Tab.1.right" timestamp="1593304979652">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="853" height="358" key="GridCell.Tab.1.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
+    <state width="853" height="358" key="GridCell.Tab.1.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593304979652" />
     <state x="494" y="-867" key="Maven.ArtifactSearchDialog" timestamp="1593303062337">
       <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>

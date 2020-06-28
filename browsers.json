@@ -1,0 +1,25 @@
+{
+  "chrome": {
+    "default": "83.0",
+    "versions": {
+      "83.0": {
+        "image": "selenoid/vnc:chrome_83.0",
+        "port": "4444",
+        "path": "/",
+        "env": [
+          "TZ=Europe/Moscow",
+          "LANG=ru_RU.UTF-8",
+          "LANGUAGE=ru:en",
+          "LC_ALL=ru_RU.UTF-8"
+        ],
+        "tmpfs": {
+          "/tmp": "size=512m"
+        },
+        "volumes": [
+          "/tmp/aut_oz_tmp:/tmp/aut_oz_tmp/:rw",
+          "/tmp/aut_oz_tmp/downloads:/home/selenium/Downloads:rw"
+        ]
+      }
+    }
+  }
+}
