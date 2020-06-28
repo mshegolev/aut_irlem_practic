@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="aut" />
+    </loaded-modules>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,17 +25,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd669bde-aa7f-4b4a-9501-abfc987f2771" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Belly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/AccountData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/AccountHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aut.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/cucumber/skeleton/Belly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/skeleton/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/skeleton/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/io/cucumber/skeleton/belly.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/io/cucumber/zituorden/belly.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Belly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/cucumber/zituorden/Belly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/cucumber/zituorden/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.cucumber.zituorden.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-io.cucumber.zituorden.RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.cucumber.zituorden.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/io.cucumber.zituorden.RunCucumberTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Substep Feature" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,12 +75,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/qaframework/rtv/fw" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.56666666" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.cucumber.zituorden" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/qaframework/rtv/fw" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.cucumber.zituorden" />
+      <recent name="qaframework.rtv.fw" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.cucumber.zituorden" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: belly">
     <configuration name="Feature: belly" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/io/cucumber/zituorden/belly.feature" />
@@ -70,9 +124,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/io/cucumber/zituorden/login.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="aut" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.zituorden.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.cucumber.zituorden" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.zituorden.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: belly" />
+        <item itemvalue="Cucumber Java.Feature: login" />
+        <item itemvalue="JUnit.RunCucumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +174,9 @@
       <updated>1592684020758</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="fw" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -102,25 +194,86 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592684818528">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="356" y="-980" key="#Project_Structure" timestamp="1593292468805">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="356" y="-980" key="#Project_Structure/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593292468805" />
+    <state x="-53" y="-989" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593283882047">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-53" y="-989" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593283882047" />
     <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592684818528" />
-    <state width="1218" height="154" key="GridCell.Tab.0.bottom" timestamp="1592685697574">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="696" y="-833" width="845" height="608" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593293483503">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="696" y="-833" width="845" height="608" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593293483503" />
+    <state x="578" y="-653" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593302606918">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="578" y="-653" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593302606918" />
+    <state x="653" y="-669" key="DetectedRootsChooserDialog" timestamp="1593291688652">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="653" y="-669" key="DetectedRootsChooserDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593291688652" />
+    <state width="853" height="452" key="GridCell.Tab.0.bottom" timestamp="1593303669157">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="853" height="452" key="GridCell.Tab.0.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669157" />
     <state width="1218" height="154" key="GridCell.Tab.0.bottom/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697574" />
-    <state width="1218" height="154" key="GridCell.Tab.0.center" timestamp="1592685697573">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="853" height="452" key="GridCell.Tab.0.center" timestamp="1593303669156">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="853" height="452" key="GridCell.Tab.0.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669156" />
     <state width="1218" height="154" key="GridCell.Tab.0.center/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697573" />
-    <state width="1218" height="154" key="GridCell.Tab.0.left" timestamp="1592685697572">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="853" height="452" key="GridCell.Tab.0.left" timestamp="1593303669156">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="853" height="452" key="GridCell.Tab.0.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669156" />
     <state width="1218" height="154" key="GridCell.Tab.0.left/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697572" />
-    <state width="1218" height="154" key="GridCell.Tab.0.right" timestamp="1592685697573">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="853" height="452" key="GridCell.Tab.0.right" timestamp="1593303669157">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="853" height="452" key="GridCell.Tab.0.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303669157" />
     <state width="1218" height="154" key="GridCell.Tab.0.right/0.23.1280.777/-209.-1057.1920.1057@0.23.1280.777" timestamp="1592685697573" />
+    <state width="853" height="358" key="GridCell.Tab.1.bottom" timestamp="1593303163459">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="853" height="358" key="GridCell.Tab.1.bottom/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
+    <state width="853" height="358" key="GridCell.Tab.1.center" timestamp="1593303163459">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="853" height="358" key="GridCell.Tab.1.center/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
+    <state width="853" height="358" key="GridCell.Tab.1.left" timestamp="1593303163458">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="853" height="358" key="GridCell.Tab.1.left/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163458" />
+    <state width="853" height="358" key="GridCell.Tab.1.right" timestamp="1593303163459">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="853" height="358" key="GridCell.Tab.1.right/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303163459" />
+    <state x="494" y="-867" key="Maven.ArtifactSearchDialog" timestamp="1593303062337">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="494" y="-867" key="Maven.ArtifactSearchDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303062337" />
+    <state x="620" y="-765" key="NewModule_or_Project.wizard" timestamp="1593301724352">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="620" y="-765" key="NewModule_or_Project.wizard/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593301724352" />
+    <state x="610" y="-819" key="RollbackChangesDialog" timestamp="1593292662718">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="610" y="-819" key="RollbackChangesDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593292662718" />
+    <state x="165" y="-990" key="SettingsEditor" timestamp="1593303031574">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="165" y="-990" key="SettingsEditor/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303031574" />
+    <state x="580" y="-744" key="chooseDestDirectoryDialog" timestamp="1593301863781">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="580" y="-744" key="chooseDestDirectoryDialog/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593301863781" />
+    <state x="678" y="-629" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593303017224">
+      <screen x="-209" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="678" y="-629" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.777/-209.-1057.1920.1057@-209.-1057.1920.1057" timestamp="1593303017224" />
   </component>
 </project>

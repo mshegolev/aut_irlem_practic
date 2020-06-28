@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aut.iml" filepath="$PROJECT_DIR$/aut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rt.tv/rtv-tests/src/qaframework/rtv/fw/fw.iml" filepath="$PROJECT_DIR$/../rt.tv/rtv-tests/src/qaframework/rtv/fw/fw.iml" />
     </modules>
   </component>
 </project>
