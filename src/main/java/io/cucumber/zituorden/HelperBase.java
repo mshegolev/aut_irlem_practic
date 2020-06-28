@@ -81,7 +81,7 @@ public abstract class HelperBase {
         try {
             driver.findElement(locator).click();
             return true;
-        } catch (NoSuchElementException | ElementNotVisibleException e){
+        } catch (NoSuchElementException | ElementNotVisibleException e) {
             return false;
         }
     }
@@ -97,4 +97,11 @@ public abstract class HelperBase {
         }
     }
 
+    protected String getText(By locator) {
+        try {
+            return driver.findElement(locator).getText();
+        } catch (NoSuchElementException | ElementNotVisibleException e) {
+            return "";
+        }
+    }
 }

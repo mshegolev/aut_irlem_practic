@@ -22,7 +22,7 @@ public class AccountHelper extends HelperBase {
     }
 
     public void fillLoginForm(AccountData accountData) {
-        type(By.name("login"), accountData.username);
+        type(By.name("login"), accountData.login);
         type(By.name("password"), accountData.password);
     }
 

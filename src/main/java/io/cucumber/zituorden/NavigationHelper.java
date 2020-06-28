@@ -1,17 +1,16 @@
 package io.cucumber.zituorden;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
-
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class NavigationHelper extends HelperBase {
 
     String btnLoginName = "authButton";
-    String btnExitXpath = "//div[@aria-expanded='true']//span[text()='Выйти']";
+    String btnExitXpath = "//span[text()='Выйти']/..";
 
 
     public NavigationHelper(ApplicationManager manager) {
@@ -27,8 +26,21 @@ public class NavigationHelper extends HelperBase {
         driver.get(String.format("%s%s", manager.baseUrl, url));
     }
 
-    public void clickButtonLogin() {
-        click(By.name(btnLoginName));
+    public void openUrl(String url) {
+        driver.get(String.format("%s", url));
+    }
+
+    public boolean clickButtonLogin() {
+        return click(By.name(btnLoginName));
+    }
+
+    public boolean clickButtonByName(String name) {
+        if (name.equals("Войти")) {
+            return clickButtonLogin();
+        } else if (name.equals("Выйти")) {
+            return exit();
+        }
+        return false;
     }
 
     public boolean clickButtonExit() {
@@ -50,8 +62,7 @@ public class NavigationHelper extends HelperBase {
             clickButtonNavbarToggle();
             return clickButtonExit();
         }
-        return false;
-
+        return isLoginPageOpen();
     }
 
     public void clickButtonNavbarToggle() {
@@ -154,14 +165,14 @@ public class NavigationHelper extends HelperBase {
 
     public void fillFormForSetPayment(ApplicationManager applicationManager,
                                       AccountData accountData, String productId) {
-        type(By.id("user_login"), accountData.username);
+        type(By.id("user_login"), accountData.login);
         type(By.id("product_id"), productId);
         driver.findElement(By.id("add_payment")).click();
     }
 
     public void fillFormForUnsetPayment(ApplicationManager applicationManager,
                                         AccountData accountData, String productId) {
-        type(By.id("user_login"), accountData.username);
+        type(By.id("user_login"), accountData.login);
         type(By.id("product_id"), productId);
     }
 
@@ -281,6 +292,15 @@ public class NavigationHelper extends HelperBase {
         //Actions actions = new Actions(driver);
         //actions.moveToElement(element).click().perform();
 
+    }
+
+    public Map getUserData() {
+        String data = getText(By.xpath("//span[@class='item-delimiter']"));
+        Map<String, String> map = new HashMap<String, String>();
+        String[] array = data.split(" ");
+        map.put("name", array[0]);
+        map.put("surname", array[1]);
+        return map;
     }
 
     public void clickBuyLink() {
@@ -437,5 +457,18 @@ public class NavigationHelper extends HelperBase {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("arguments[0].scrollIntoView()", element);
         return driver.findElement(By.xpath("//*[@id='subscribeEmailBlock']/h3[1]")).getText();
+    }
+
+    public boolean isUserLogged() {
+        String text = getText(By.xpath("//a[text()='Личный кабинет']"));
+        return text.equals("Личный кабинет");
+    }
+
+    public boolean isLoginPageOpen() {
+        try {
+            return isElementEnabled(By.name(btnLoginName));
+        } catch (NoSuchElementException | ElementNotVisibleException e) {
+            return false;
+        }
     }
 }

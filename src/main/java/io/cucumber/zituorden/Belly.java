@@ -24,7 +24,7 @@ public class Belly {
         System.out.println("login");
         app.getNavigationHelper().openMainPage();
         AccountData account = new AccountData();
-        account.username = "test001";
+        account.login = "test001";
         account.password = "001test";
         System.out.println("fill form");
         app.getAccountHelper().fillLoginForm(account);
