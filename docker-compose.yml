@@ -19,29 +19,29 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock"
     command: ["-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-timeout", "15m0s", "-mem", "1g", "-cpu", "2.0"]
 
-  selenoid-ui:
-    image: "aerokube/selenoid-ui"
-    container_name: "selenoid-ui"
-    network_mode: bridge
-    links:
-      - selenoid
-    ports:
-      - "8080:8080"
-    command: ["--selenoid-uri", "http://selenoid:4444"]
-
-  test-run:
-    build:
-      context: ./
-      dockerfile: arm-oz-test-env.Dockerfile
-    image: "arm-oz-test-env:aut_oz.v0.1"
-    container_name: "test-run"
-    network_mode: "host"
-    user: ${UID}:${GID}
-    working_dir: /workdir
-    depends_on:
-      - selenoid-ui
-      - selenoid
-    volumes:
-      - "./:/workdir"
-      - "./docker.passwd:/etc/passwd"
-    command: ["pytest", "--env=${ENV}", "${TEST_MASK}", "--alluredir=allure-results"]
+#  selenoid-ui:
+#    image: "aerokube/selenoid-ui"
+#    container_name: "selenoid-ui"
+#    network_mode: bridge
+#    links:
+#      - selenoid
+#    ports:
+#      - "8080:8080"
+#    command: ["--selenoid-uri", "http://selenoid:4444"]
+#
+#  test-run:
+#    build:
+#      context: ./
+#      dockerfile: arm-oz-test-env.Dockerfile
+#    image: "arm-oz-test-env:aut_oz.v0.1"
+#    container_name: "test-run"
+#    network_mode: "host"
+#    user: ${UID}:${GID}
+#    working_dir: /workdir
+#    depends_on:
+#      - selenoid-ui
+#      - selenoid
+#    volumes:
+#      - "./:/workdir"
+#      - "./docker.passwd:/etc/passwd"
+#    command: ["pytest", "--env=${ENV}", "${TEST_MASK}", "--alluredir=allure-results"]
