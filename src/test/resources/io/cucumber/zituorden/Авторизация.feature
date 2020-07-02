@@ -14,3 +14,4 @@
       | ссылка                  | логин     | пароль    | имя     | фамилия   |
       | "https://rithm-time.tv" | "test001" | "001test" | "Frodo" | "Baggins" |
       | "https://rithm-time.tv" | "test002" | "002test" | "Frodo" | "Baggins" |
+      | "https://rithm-time.tv" | "test003" | "003test" | "Frodo" | "Baggins" |
