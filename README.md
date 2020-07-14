@@ -7,7 +7,7 @@ Open a console and run:
 
 # Jenkins configuration
 ## Unpack backup for Centos 7 to /var/lib/jenkins
-    
+    wget https://drive.google.com/file/d/1w7CaIUXxwQ1pH9WSy7DzyhEb81f7_pfL/view?usp=sharing
 ### Encrypt
 
     tar cz folder_to_encrypt | \
