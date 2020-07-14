@@ -93,3 +93,14 @@ This works as long as you have the `rerun` formatter enabled.
 For example a JUnit formatter:
 
     -Dcucumber.plugin="junit:target/cucumber-junit-report.xml"
+
+
+# Jenkins configuration
+##Encrypt
+
+ tar cz folder_to_encrypt | \
+      openssl enc -aes-256-cbc -e > out.tar.gz.enc"
+      
+## Decrypt
+
+ openssl enc -aes-256-cbc -d -in out.tar.gz.enc | tar xz"
