@@ -5,7 +5,7 @@
 .mvn/
 # Log file
 *.log
-
+.DS_store
 # BlueJ files
 *.ctxt
 
